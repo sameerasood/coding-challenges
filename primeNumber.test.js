@@ -15,4 +15,10 @@ describe("PrimeNumber class", () => {
     const primeNumber = new PrimeNumber(187);
     expect(primeNumber.getResult()).toEqual("187 is not a prime number.");
   });
+
+  it("throws error if number is less than 2", () => {
+    expect(() => new PrimeNumber(0).getResult()).toThrowError(
+      "Number should be greater than 1"
+    );
+  });
 });

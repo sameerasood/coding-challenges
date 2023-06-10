@@ -1,5 +1,8 @@
 class PrimeNumber {
   constructor(num) {
+    if (num <= 1) {
+      throw new Error("Number should be greater than 1");
+    }
     this.num = num;
   }
 
