@@ -12,9 +12,10 @@ class PrimeNumber {
         return `${this.num} is not a prime number.`;
       }
     }
-
     return `${this.num} is a prime number.`;
   }
 }
 
 module.exports = PrimeNumber;
+
+console.log(new PrimeNumber(-9).getResult());
