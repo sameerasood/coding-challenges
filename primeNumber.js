@@ -4,7 +4,7 @@ class PrimeNumber {
   }
 
   getResult() {
-    return "2 is a prime number.";
+    return `${this.num} is a prime number.`;
   }
 }
 
