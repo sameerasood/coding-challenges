@@ -10,4 +10,9 @@ describe("PrimeNumber class", () => {
     const primeNumber = new PrimeNumber(4);
     expect(primeNumber.getResult()).toEqual("4 is not a prime number.");
   });
+
+  it("checks if a big number is a prime", () => {
+    const primeNumber = new PrimeNumber(187);
+    expect(primeNumber.getResult()).toEqual("187 is not a prime number.");
+  });
 });
