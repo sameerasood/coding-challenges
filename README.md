@@ -39,3 +39,22 @@
    output: 4 is not a prime number
 
    edge cases - numbers less than or equal to 1
+
+3. Fibonacci Sequence:
+   Write a function that generates the Fibonacci sequence up to a given number n.
+   The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones.
+
+   input type = number
+   output type = array
+
+   test case:1
+   input = 2
+   output = [0,1]
+
+   test case:2
+   input = 3
+   output = [0,1,1]
+
+   test case:3
+   input = 5
+   output = [0,1,1,2,3]
