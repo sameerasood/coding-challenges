@@ -1,5 +1,9 @@
 class MissingNumber {
   constructor(array) {
+    if (array.length === 0) {
+      throw new Error("Invalid input. Array is empty.");
+    }
+
     this.array = array;
     this.sum = 0;
     this.arrayTotal = 0;

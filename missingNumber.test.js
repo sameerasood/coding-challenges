@@ -15,4 +15,10 @@ describe("class MissingNumber", () => {
     const missingNumber = new MissingNumber([1, 2, 4, 5, 3, 7, 8, 6]);
     expect(missingNumber.getResult()).toEqual(9);
   });
+
+  it("throws error if array is empty", () => {
+    expect(() => new MissingNumber([])).toThrowError(
+      "Invalid input. Array is empty."
+    );
+  });
 });
