@@ -27,3 +27,6 @@ class MissingNumber {
 }
 
 module.exports = MissingNumber;
+
+const missingNumber = new MissingNumber([1, 2, 3, 4, 6, 5, 8, 7]);
+console.log(missingNumber.getResult());
