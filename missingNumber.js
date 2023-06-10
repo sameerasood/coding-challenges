@@ -15,7 +15,9 @@ class MissingNumber {
     this.sum = (n * (n + 1)) / 2;
 
     for (let i = 0; i < this.array.length; i++) {
-      this.arrayTotal += this.array[i];
+      if (typeof this.array[i] == "number") {
+        this.arrayTotal += this.array[i];
+      } else throw new Error("Invalid input. Array can contain only integers.");
     }
     // console.log(this.arrayTotal);
 

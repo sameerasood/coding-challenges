@@ -22,4 +22,12 @@ describe("class MissingNumber", () => {
     );
     // a function to wrap the instantiation of MissingNumber with an empty array
   });
+
+  it("throws error if the array contains non-integer", () => {
+    expect(() =>
+      new MissingNumber([1, 2, 3, "a", 5]).toThrowError(
+        "Invalid input. Array can contain only integers."
+      )
+    );
+  });
 });
