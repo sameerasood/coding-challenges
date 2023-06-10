@@ -20,5 +20,6 @@ describe("class MissingNumber", () => {
     expect(() => new MissingNumber([])).toThrowError(
       "Invalid input. Array is empty."
     );
+    // a function to wrap the instantiation of MissingNumber with an empty array
   });
 });
