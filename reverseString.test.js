@@ -15,4 +15,8 @@ describe("class ReverString", () => {
     const reverseString = new ReverseString("interview");
     expect(reverseString.getResult()).toEqual("weivretni");
   });
+
+  it("throws error if the string is empty", () => {
+    expect(() => new ReverseString("")).toThrowError("Enter a valid string.");
+  });
 });

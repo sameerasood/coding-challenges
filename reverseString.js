@@ -1,5 +1,8 @@
 class ReverseString {
   constructor(str) {
+    if (str.length === 0) {
+      throw new Error("Enter a valid string.");
+    }
     this.str = str;
     this.newString = [];
   }
@@ -14,3 +17,5 @@ class ReverseString {
 }
 
 module.exports = ReverseString;
+
+console.log(new ReverseString("cool").getResult());
