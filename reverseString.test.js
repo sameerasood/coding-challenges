@@ -10,4 +10,9 @@ describe("class ReverString", () => {
     const reverseString = new ReverseString("an");
     expect(reverseString.getResult()).toEqual("na");
   });
+
+  it("returns reversed string for a longer string", () => {
+    const reverseString = new ReverseString("interview");
+    expect(reverseString.getResult()).toEqual("weivretni");
+  });
 });
