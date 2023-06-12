@@ -10,4 +10,9 @@ describe("class DuplicateNumber", () => {
     const duplicateNumber = new RemoveDuplicates([1, 1]);
     expect(duplicateNumber.getResult()).toEqual([1]);
   });
+
+  it("removes duplicate from array with multiple elements", () => {
+    const duplicateNumber = new RemoveDuplicates([1, 2, 3, 2, 4]);
+    expect(duplicateNumber.getResult()).toEqual([1, 2, 3, 4]);
+  });
 });
