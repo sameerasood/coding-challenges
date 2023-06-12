@@ -1,4 +1,4 @@
-## Coding Challenges Practise for Tech Interview
+## Coding Challenges for Tech Interview Prep
 
 ### 1. Missing Number
 
@@ -84,4 +84,21 @@
     1. empty string
     2. wrong data type
 
-### 5.
+### 5. Remove duplicates
+
+    Write a function that takes an array of numbers or strings and removes any duplicate values.
+
+    input: an array of numbers or strings
+    output: array with 0 duplicate elements
+
+    test case 1:
+    input: [1]
+    output: [1]
+
+    test case 2:
+    input: [1,1]
+    output: [1]
+
+    test case 3:
+    input: [1,2,3,2,4]
+    output: [1,2,3,4]
