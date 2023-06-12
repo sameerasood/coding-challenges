@@ -8,7 +8,7 @@
     Input - an array of integers
     output - single integer
 
-    summation formula - n\*(n+1)/2
+    summation formula - n*(n+1)/2
 
     test case 1:
     input => [2]
@@ -102,3 +102,23 @@
     test case 3:
     input: [1,2,3,2,4]
     output: [1,2,3,4]
+
+### 6. Palindrome Checker:
+
+    Write a function that checks if a given string is a palindrome
+    (reads the same forwards and backwards),ignoring spaces and punctuation.
+
+    input: string
+    output: Yes/no
+
+    test case 1:
+    input: "I"
+    output: Yes, it is a palindrome
+
+    test case 2:
+    input: "noon"
+    output: Yes, it is a palindrome
+
+    test case 3:
+    input: "none"
+    output: No, it is not a palindrome
